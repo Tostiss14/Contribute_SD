@@ -112,6 +112,7 @@
         - Sheet
         - RawMaterial
         - Ingot
+  - type: OreSiloClient
   - type: StationAiWhitelist #ADT-Tweak
   - type: Lathe
     idleState: icon
@@ -183,7 +184,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: Machine
-    board: ProtolatheMachineCircuitboard
+  - type: OreSiloClient
   - type: StationAiWhitelist #ADT-Tweak
   - type: MaterialStorage
     whitelist:
@@ -192,6 +193,7 @@
         - RawMaterial
         - Ingot
         - PhantomEctoplasm
+  - type: OreSiloClient
   - type: Lathe
     idleState: icon
     runningState: building
@@ -281,7 +283,7 @@
     - MechBoards
     - ShuttleBoards
     # ADT-tweak-start
-    - ADTEnergyBoardsPack 
+    - ADTEnergyBoardsPack
     # ADT-tweak-end
   - type: EmagLatheRecipes
     emagDynamicPacks:
@@ -292,6 +294,7 @@
         - Sheet
         - RawMaterial
         - Ingot
+  - type: OreSiloClient
   - type: RequireProjectileTarget
 
 - type: entity
@@ -350,6 +353,7 @@
       - Sheet
       - RawMaterial
       - Ingot
+  - type: OreSiloClient
   - type: GuideHelp
     guides:
     - Robotics
@@ -445,6 +449,7 @@
         - Sheet
         - RawMaterial
         - Ingot
+  - type: OreSiloClient
 
 - type: entity
   id: AmmoTechFab
@@ -478,6 +483,7 @@
           - Sheet
           - RawMaterial
           - Ingot
+    - type: OreSiloClient
 
 - type: entity
   id: MedicalTechFab
@@ -516,6 +522,7 @@
     board: MedicalTechFabCircuitboard
   - type: StealTarget
     stealGroup: MedicalTechFabCircuitboard
+  - type: OreSiloClient # SD-TWEAK
 
 - type: entity
   parent: BaseLathe

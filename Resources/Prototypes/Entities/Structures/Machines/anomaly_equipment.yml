@@ -270,6 +270,7 @@
         - Sheet
     materialWhiteList:
     - Plasma
+  - type: OreSiloClient # SD-TWEAK
   - type: Fixtures
     fixtures:
       fix1:

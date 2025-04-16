@@ -70,7 +70,6 @@ public sealed class OreSiloSystem : SharedOreSiloSystem
 
         _userInterface.SetUiState(ent.Owner, OreSiloUiKey.Key, new OreSiloBuiState(clients));
     }
-
     public override void Update(float frameTime)
     {
         base.Update(frameTime);

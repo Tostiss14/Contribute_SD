@@ -44,13 +44,14 @@
       - Sheet
       - RawMaterial
       - Ingot
+  - type: OreSiloClient # SD-TWEAK
   - type: AmbientSound
     enabled: false
     volume: 5
     range: 3
     sound:
       path: /Audio/Items/rped.ogg
-  - type: WiresPanel
+  - type: WiresPane
   - type: WiresVisuals
   - type: Appearance
   - type: ActivatableUI

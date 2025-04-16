@@ -77,6 +77,17 @@
   cost: 750
   category: cargoproduct-category-name-materials
   group: market
+# sd-tweak-start oresilo
+- type: cargoProduct
+  id: MaterialSilo
+  icon:
+    sprite: SD/Structures/Machines/silo.rsi
+    state: silo
+  product: CrateMaterialSilo
+  cost: 5000
+  category: cargoproduct-category-name-materials
+  group: market
+# sd-tweak-end oresilo
 
 - type: cargoProduct
   id: PaperMaterial
