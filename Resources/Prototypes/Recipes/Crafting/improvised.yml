@@ -253,3 +253,16 @@
   icon:
     sprite: Clothing/OuterClothing/Hardsuits/goliath.rsi
     state: icon
+
+- type: construction
+  name: rubber armor
+  id: makeshiftrubberarmor
+  graph: makeshiftrubberarmor
+  startNode: start
+  targetNode: msrubberarmor
+  category: construction-category-clothing
+  objectType: Item
+  description: Bwoink!
+  icon:
+    sprite: SD/Clothing/OuterClothing/Armor/Specific/rubber_armor.rsi
+    state: icon

@@ -1,0 +1,39 @@
+- type: entity
+  parent: [ClothingHeadBase, BaseMinorContraband]
+  id: ClothingHeadHelmetRubber
+  name: rubber helmet
+  description: Bwoink!
+  components:
+  - type: Sprite
+    sprite: SD/Clothing/Head/Helmets/rubber.rsi
+  - type: Clothing
+    sprite: SD/Clothing/Head/Helmets/rubber.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
+        Caustic: 0.95
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
+
+- type: entity
+  parent: [ClothingHeadBase, BaseMinorContraband]
+  id: ClothingHeadHelmetSteel
+  name: selfmade steel helmet
+  description: Clang!
+  components:
+  - type: Sprite
+    sprite: SD/Clothing/Head/Helmets/steel.rsi
+  - type: Clothing
+    sprite: SD/Clothing/Head/Helmets/steel.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.90
+        Piercing: 0.80
+  - type: ExplosionResistance
+    damageCoefficient: 0.8

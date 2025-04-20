@@ -1,0 +1,30 @@
+- type: constructionGraph # sd rubber armor start
+  id: makeshiftrubberarmor
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: msrubberarmor
+          steps:
+            - material: Cable
+              amount: 30
+            - tag: LVCable
+              name: lv cable
+              icon:
+                sprite: Objects/Tools/cable-coils.rsi
+                state: coillv-30
+            - tag: Handcuffs
+              icon:
+                sprite: Objects/Misc/cablecuffs.rsi
+                state: cuff
+                color: red
+              name: cuffs
+            - tag: Cloth
+              name: Cloth
+              icon:
+                sprite: Objects/Materials/materials.rsi
+                state: cloth
+              doAfter: 30
+    - node: msrubberarmor
+      entity: ClothingOuterArmorRubber
+      # sd rubber armor end
